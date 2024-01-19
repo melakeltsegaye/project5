@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,600;1,400&family=Carter+One&family=DM+Serif+Display&family=Ephesis&family=Fira+Sans:ital@1&family=Khand:wght@500&family=Lobster&family=Manrope&family=Orbitron:wght@500&family=Poppins:wght@300;400;700&family=Roboto:wght@300&family=Tilt+Neon&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Khand;
+}
+
+
+
+body{
+    width: 100%;
+}
+
+
+#contcont {
+    background-color: rgb(5, 1, 19); 
+    height: 100vh; 
+}
+
+
+#contact {
+    width: 70%;
+}
+
+@media screen and (max-width: 990px) { 
+#contcont {
+    height: auto;
+}
+
+
+#contact {
+    width: 90%;
+}
+
+
+}
